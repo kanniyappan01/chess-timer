@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <html>
+	    <head>
+		    <meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Wall Clock</title>
+			<link rel="stylesheet" href="font/icofont.min.css">
+			<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;1,300;1,400;1,500&family=Poppins:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+			<link rel="stylesheet" href="css/style.css">
+			
+		</head>
+		<body>
+			<!--chess timer-->
+			<div class="container">
+				<div class="button-area-01">
+					<button id="swap-btn-a" type="button">A</button>
+					<button id="swap-btn-b" type="button">B</button>
+				</div>
+				<div class="time-window">
+					<div class="player-a display">
+						<input id="timer-a" value="">
+					</div>
+					<div class="player-b display">
+						<input id="timer-b" value="">
+					</div>
+				</div>
+				<div class="button-area-02">
+					<button id="btn-start" type="button">START</button>
+					<div>
+						<button id="btn-plus" type="button" disabled>+</button>
+						<button id="btn-rule" type="button" disabled>RULE</button>
+					</div>
+					<div>
+						<button id="btn-minus" type="button" disabled>-</button>
+						<button id="reset-btn" type="button" >P</button>
+					</div>
+					<button hidden id="btn-pause" type="button">PAUSE</button>
+				</div>
+			</div>			
+	<!--		<input type="text" id="settime" value=""></input>
+			<button id="submit-time">SUBMIT</button> -->
+			<script src="js/script.js"></script>
+		</body>
+	</html>
